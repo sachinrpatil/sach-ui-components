@@ -1,5 +1,5 @@
 {
-  "name": "sach-ui-components",
+  "name": "@sachinrpatil/sach-ui-components",
   "version": "0.0.1",
   "description": "Sachin's custom React UI components library",
   "main": "dist/cjs/index.js",
@@ -32,5 +32,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/sachinrpatil"
+  }
 }
